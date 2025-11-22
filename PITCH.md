@@ -39,9 +39,18 @@ The healthcare industry faces a critical administrative burden that undermines b
 
 ## 2. THE SOLUTION (Category 1: Problem/Solution Communication)
 
+### The Problem vs. The Solution
+
+**Before:** Healthcare providers are overwhelmed with administrative tasks
+**After:** AI-powered automation handles routine tasks while providers focus on patient care
+
+![Before and After](https://raw.githubusercontent.com/xhyzide-p/healthcare-admin-agent/main/docs/images/before-after.png)
+
 ### Architecture Overview
 
 The **Healthcare Administrative Assistant** is a multi-agent system with specialized agents for different administrative tasks:
+
+![Multi-Agent Architecture](https://raw.githubusercontent.com/xhyzide-p/healthcare-admin-agent/main/docs/images/architecture-diagram.png)
 
 ```
 Patient Request
@@ -239,7 +248,11 @@ Patient Request
 
 ## 5. DEVELOPMENT & DEPLOYMENT (Category 2: Architecture & Code)
 
-### Technology Stack
+### Technology Stack & Deployment Architecture
+
+![Technology Stack](https://raw.githubusercontent.com/xhyzide-p/healthcare-admin-agent/main/docs/images/tech-stack.png)
+
+### Core Technologies
 - **LLM:** Google Gemini API
 - **Framework:** Google Agent Development Kit (ADK) - Python
 - **Databases:** PostgreSQL (patient data), Redis (sessions), Firestore (audit logs)
