@@ -1,0 +1,23 @@
+{
+  "id": "xhyzide/healthcare-admin-agent",
+  "title": "Healthcare Administrative Assistant Agent",
+  "subtitle": "Multi-agent AI system for automating healthcare administrative workflows",
+  "description": "A complete multi-agent AI system that automates healthcare administrative tasks including patient intake, appointment scheduling, insurance verification, records management, and follow-up communications. Demonstrates multi-agent orchestration, session management, observability, and healthcare compliance patterns.",
+  "isPrivate": false,
+  "keywords": [
+    "healthcare",
+    "artificial-intelligence",
+    "multi-agent-systems",
+    "automation",
+    "agents",
+    "python",
+    "google-gemini",
+    "healthcare-ai"
+  ],
+  "licenses": [
+    {
+      "name": "MIT"
+    }
+  ],
+  "resources": []
+}
